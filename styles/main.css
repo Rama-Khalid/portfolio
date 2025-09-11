@@ -30,50 +30,57 @@ nav {
     font-size: 30px;
     color: #513636;
 }
-.left-side{
+
+.left-side {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-self: self-start;
     /* background-color: rgb(236, 162, 64); */
     width: 300px;
-    height: 1000px;
-        overflow: hidden;
-        margin-top: -43px;
+    height: 5000px;
+    overflow: hidden;
+    margin-top: -43px;
 }
+
 .left_corner {
     width: 250px;
     margin: 50px 0 0 100px;
     transform: rotate(-10deg);
 }
-.lavender{
+
+.lavender {
     width: 200px;
     margin-top: 200px;
     margin-left: -50px;
     transform: rotate(45deg);
 }
 
- .right-side{
+.right-side {
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-self: end;
     /* background-color: rgb(236, 162, 64); */
     width: 270px;
-    height: 1000px;
-        overflow: hidden;
-        margin-top: -43px;
+    height: 5000px;
+    overflow: hidden;
+    margin-top: -43px;
 }
-.right_corner {   
+
+.right_corner {
     width: 400px;
     margin: -300px 0 0 100px;
     transform: rotate(30deg);
 }
-.daisy{
+
+.daisy {
     width: 400px;
     margin-top: 90px;
     margin-left: 89px;
 }
-.welcom{
+
+.welcom {
     position: absolute;
     top: 100px;
     left: 340px;
@@ -81,24 +88,81 @@ nav {
     flex-direction: row;
     justify-content: center;
     /* background-color: rgb(246, 216, 176); */
-    align-items:center;
+    align-items: center;
     align-content: center;
-     font-size: 70px;
+    font-size: 70px;
 }
 
-.About_Me{
+.About_Me {
     display: flex;
-align-items:center;
+    align-items: center;
     align-content: center;
     justify-content: center;
     background-image: url("./About-me.png");
     width: 90%;
     height: 688px;
     border-radius: 80px;
-    margin: -90px 0 0 100px;
+    margin: 900px 0 0 100px;
 }
 
-.projects{
+.skills {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+        /* background-color: rgb(246, 216, 176); */
+        margin-top: 50px;
+
+}
+
+.star_paper {
+    position: relative;
+    width: 300px;
+    z-index: 0;
+    left:100px ;
+  
+
+}
+.green_paper{
+    position: relative;
+    z-index: 1;
+    left:-100px ;
+    width: 400px;
+    
+}
+.skills_title{
+   position: absolute;
+    width: 400px;
+    z-index: 1;
+    right: 370px;
+    font-size: 70px; 
+}
+.plum{
+   width: 200px;
+    margin-top: 1000px;
+}
+
+.white_flower{
+   width: 200px;
+margin-top: 1300px;
+margin-left: 90px; 
+}
+
+.computers{
+    background-color: antiquewhite;
+    display:grid;
+    justify-content: center;
+    grid-template-rows: 340px 340px ;
+    grid-template-columns: 340px 340px 340px ;
+}
+.cum1{
+    
+}
+.html_icon{
+    grid-row:1 /1;
+}
+
+.projects {
     /* background-image: url("./lav_background.png"); */
     width: 100%;
     height: 688px;
