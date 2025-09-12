@@ -38,7 +38,7 @@ nav {
     justify-self: self-start;
     /* background-color: rgb(236, 162, 64); */
     width: 300px;
-    height: 5000px;
+    height: 8005px;
     overflow: hidden;
     margin-top: -43px;
 }
@@ -63,7 +63,7 @@ nav {
     justify-self: end;
     /* background-color: rgb(236, 162, 64); */
     width: 270px;
-    height: 5000px;
+    height: 8005px;
     overflow: hidden;
     margin-top: -43px;
 }
@@ -110,8 +110,8 @@ nav {
     align-items: center;
     align-content: center;
     justify-content: center;
-        /* background-color: rgb(246, 216, 176); */
-        margin-top: 50px;
+    /* background-color: rgb(246, 216, 176); */
+    margin-top: 50px;
 
 }
 
@@ -119,51 +119,320 @@ nav {
     position: relative;
     width: 300px;
     z-index: 0;
-    left:100px ;
-  
+    left: 100px;
+
 
 }
-.green_paper{
+
+.green_paper {
     position: relative;
     z-index: 1;
-    left:-100px ;
+    left: -100px;
     width: 400px;
-    
+
 }
-.skills_title{
-   position: absolute;
+
+.skills_title {
+    position: absolute;
     width: 400px;
     z-index: 1;
     right: 370px;
-    font-size: 70px; 
+    font-size: 70px;
 }
-.plum{
-   width: 200px;
+
+.plum {
+    width: 200px;
     margin-top: 1000px;
 }
 
-.white_flower{
-   width: 200px;
-margin-top: 1300px;
-margin-left: 90px; 
+.white_flower {
+    width: 200px;
+    margin-top: 1300px;
+    margin-left: 90px;
 }
 
-.computers{
-    background-color: antiquewhite;
-    display:grid;
+.computers {
+    /* background-color: antiquewhite; */
+    display: grid;
     justify-content: center;
-    grid-template-rows: 340px 340px ;
-    grid-template-columns: 340px 340px 340px ;
+    grid-template-rows: 340px 340px;
+    grid-template-columns: 340px 340px 340px;
+    gap: 50px;
 }
-.cum1{
+
+.cumputer1 {
+    grid-area: 1/1/1/1;
+    display: grid;
+    justify-content: center;
+   grid-template-rows: repeat(35, 10px);
+    grid-template-columns: repeat(35, 10px);
+}
+
+.html_icon {
+    grid-row-start: 4;
+    grid-column-start: 8;
+    z-index: 1;
+
+}
+
+.cumputer2 {
+    grid-column-start: 2;
+    /* grid-template-columns:2 ; */
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(35, 10px);
+    grid-template-columns: repeat(35, 10px);
+}
+
+.js_icon {
+    grid-row-start: 4;
+    grid-column-start: 10;
+    z-index: 1;
     
 }
-.html_icon{
-    grid-row:1 /1;
+
+.computer3 {
+    grid-column-start: 3;
+    display: grid;
+    justify-content: center;
+   grid-template-rows: repeat(35, 10px);
+    grid-template-columns: repeat(35, 10px);
 }
 
+.python_icon{
+grid-row-start: 4;
+    grid-column-start: 9;
+    z-index: 1;
+}
+
+.computer4 {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(35, 10px);
+    grid-template-columns: repeat(35, 10px);
+}
+
+.SQL_icon{
+    grid-row-start: 5;
+    grid-column-start: 10;
+    z-index: 1;
+}
+.computer5 {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(35, 10px);
+    grid-template-columns: repeat(35, 10px);
+}
+
+.CSS_icon{
+grid-row-start: 4;
+    grid-column-start: 8;
+    z-index: 1;
+}
+.computer6 {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(35, 10px);
+    grid-template-columns: repeat(35, 10px);
+}
+.java_icon{
+    grid-row-start: 3;
+    grid-column-start: 8;
+    z-index: 1;
+}
 .projects {
-    /* background-image: url("./lav_background.png"); */
-    width: 100%;
-    height: 688px;
+    /* background-color: antiquewhite; */
+     display: grid;
+    justify-content: start;
+    grid-template-rows: repeat(50, 70px) ;
+    grid-template-columns:  repeat(35, 70px) ;
+  
+}
+.project_title{
+    width: 1400px;
+    /* margin-top: 200px; */
+    grid-row-start: 3;
+    grid-column-start: 1;
+
+}
+.blue_star{
+    width: 200px;
+   grid-row-start: 6;
+ grid-column-start: 18;
+    z-index: 1; 
+}
+.AutismLens{
+    width: 600px;
+    
+   grid-row-start: 10;
+ grid-column-start: 6;
+    z-index: 1; 
+}
+.golden-star{
+    width: 200px;
+    margin-top: 800px;
+    margin-left: 50px;
+}
+.stars{
+   width: 200px;
+    margin-top: 1200px;
+    margin-left: 0px; 
+}
+.leaf{
+width: 400px;
+   grid-row-start: 16;
+ grid-column-start: 1;
+    z-index: 1; 
+    transform: rotate(-45deg);
+}
+.autismLens_disc{
+    width: 800px;
+   grid-row-start: 16;
+ grid-column-start: 10;
+    z-index: 1;
+}
+.Floritsia{
+   width: 600px;
+   grid-row-start: 25;
+ grid-column-start: 2;
+    z-index: 1; 
+}
+.lemon{
+   width: 230px;
+    margin-top: 800px;
+    margin-left: 50px;
+    transform: rotate(-10deg);
+
+}
+.twinkles{
+    width: 400px;
+    grid-row-start: 24;
+ grid-column-start: 11;
+}
+.floritsia_disc{
+    width: 800px;
+   grid-row-start: 30;
+ grid-column-start: 10;
+    z-index: 1; 
+}
+.LearnSphere{
+    width: 600px;
+   grid-row-start: 42;
+ grid-column-start: 13;
+    z-index: 0;
+}
+.LearnSphere_disc{
+    width: 800px;
+   grid-row-start: 38;
+ grid-column-start: 3;
+    z-index: 1;
+}
+.blue_star_on{
+  width: 300px;
+   grid-row-start: 47 ;
+ grid-column-start: 18;
+    z-index: 1;    
+}
+.daisy2{
+     width: 200px;
+    margin-top: 1500px;
+    margin-left: -40px;
+
+    transform: scaleX(-1); 
+
+}
+.contact-me{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(50, 20px) ;
+    grid-template-columns:  repeat(21, 50px) ;
+}
+.cats{
+    grid-row-start: 2 ;
+ grid-column-start:1 ;
+ z-index: 1;
+}
+.postcard{
+    width: 1050px;
+    grid-row-start: 1;
+ grid-column-start:1 ;
+ border-radius: 50px;
+ box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.26);
+}
+.card_spark{
+    margin-top: 500px;
+    margin-left: 40px;
+    transform: scaleX(-1); 
+}
+.email_form{
+    /* background-color: rgba(250, 235, 215, 0.475); */
+    width: 1050px;
+    grid-row-start: 17;
+ grid-column-start:1 ;
+ grid-row-end: 41;
+ z-index: 1;
+ display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(50, 10px) ;
+    grid-template-columns:  repeat(100, 10px) ;
+}
+.Message_label{
+    font-size: 40px;
+    grid-row-start: 5;
+ grid-column-start:8 ;
+
+}
+#Message{
+    font-size: 20px;
+ grid-area: 10/7/45/43;
+ border-radius: 20px;
+ background-color: #bd9c70d2;
+ border: 3px solid #bd9b70;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name_lable{
+    font-size: 30px;
+    grid-row-start: 17;
+    grid-column-start:57;
+}
+#I_name{
+    font-size: 20px;
+     grid-area: 24/55/28/97;
+ border-radius: 20px;
+ background-color: #bd9c70d2;
+ border: 3px solid #bd9b70;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.email_label{
+ font-size: 30px;
+    grid-row-start: 33;
+    grid-column-start:57;
+}
+
+#email{
+    font-size: 20px;
+    grid-area: 39/55/43/97;
+ border-radius: 20px;
+ background-color: #bd9c70d2;
+ border: 3px solid #bd9b70;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.circl{
+    margin-top: 1700px;
+    margin-left: 40px;
+    transform: scaleX(-1);
+}
+.circl2{
+    margin-left: 40px;
+    /* transform: scaleX(-1); */
+}
+footer{
+     display: flex;
+    justify-content: flex-end;
+    align-items:end;
+    align-content:end;
+    margin-bottom: 0px;
 }
