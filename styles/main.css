@@ -1,6 +1,6 @@
 body {
-    background-image: url("/images/image.png");
-    
+    background-image: url("../images/image.png");
+
 }
 
 nav {
@@ -133,7 +133,7 @@ nav {
     font-size: 90px;
     width: 800px;
     text-align: center;
-    color:#312d1c;
+    color: #312d1c;
 
 }
 
@@ -144,7 +144,7 @@ nav {
     font-size: 50px;
     width: 500px;
     text-align: center;
-    color:#312d1c;
+    color: #312d1c;
 
     transform: rotate(-2deg);
 }
@@ -157,7 +157,7 @@ nav {
     font-family: "Winky Rough", sans-serif;
     flex-direction: column;
     color: #513636;
-    background-image: url("/images/About-me.png");
+    background-image: url("../images/About-me.png");
     width: 93%;
     height: 688px;
     border-radius: 80px;
@@ -175,7 +175,7 @@ nav {
 
 #cat {
     position: absolute;
-   
+
     top: -280px;
     right: 0px;
     left: 1000px;
@@ -456,7 +456,7 @@ nav {
     z-index: 2;
     color: #312d1c;
     /* font-family: "Bevan", serif; */
-    
+
 }
 
 .autismLens_discription {
@@ -496,7 +496,7 @@ nav {
     color: #5e4731;
     margin-left: 40px;
     font-family: "Winky Rough", sans-serif;
-    
+
 
 }
 
@@ -549,14 +549,14 @@ nav {
 
 .Floritsia_title {
     /* font-family: "Winky Rough", sans-serif; */
-    
+
     font-size: 70px;
     grid-row-start: 29;
     grid-column-start: 13;
     z-index: 2;
     color: #312d1c;
     /* font-family: "Bevan", serif; */
-    
+
 }
 
 .Floritsia_discription {
@@ -891,7 +891,7 @@ nav {
 @keyframes autoShowStamp {
     from {
         opacity: -1;
-        transform: scale(0.5) translateY(-500px) translateX(-800px) 
+        transform: scale(0.5) translateY(-500px) translateX(-800px)
     }
 
     to {
@@ -904,7 +904,7 @@ footer {
     height: 663.9px;
 
     display: flex;
-    background-image: url('/images/footer.png');
+    background-image: url('../images/footer.png');
     justify-content: center;
     gap: 40px;
     align-items: end;
@@ -912,9 +912,10 @@ footer {
     margin-top: 400px;
 
 }
-footer svg{
+
+footer svg {
     margin-bottom: 40px;
-    
+
 }
 
 svg :hover {
